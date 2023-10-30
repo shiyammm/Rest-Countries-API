@@ -101,7 +101,7 @@ const Countries = () => {
               ))}
             </section>
           ) : (
-            <section className="grid lg:grid-cols-2 xl:grid-cols-3  lg:gap-x-0 2xl:grid-cols-4 gap-14  mt-11 mx-9 justify-center px-[5rem]   ">
+            <section className="grid lg:grid-cols-2 xl:grid-cols-3  lg:gap-x-0 2xl:grid-cols-4 gap-14 mt-11 mx-9 justify-center px-[5rem]   ">
               {filteredCountry.map((country, index) => (
                 <Link
                   key={index}

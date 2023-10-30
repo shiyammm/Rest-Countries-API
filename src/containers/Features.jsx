@@ -1,12 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { PiMagnifyingGlassBold } from 'react-icons/pi';
 
-const Features = ({
-  setSelected,
-  searchCountry,
-  setSearchCountry,
-  selected,
-}) => {
+const Features = ({ setSelected, searchCountry, setSearchCountry }) => {
   const regionList = ['Africa', 'America', 'Europe', 'Oceania', 'Asia'];
   const handleSearch = (e) => {
     setSearchCountry(e.target.value);
@@ -28,9 +23,9 @@ const Features = ({
             onChange={handleSearch}
           />
         </form>
-        <form className="ml-4 ">
+        <form className="ml-4" role="select-field">
           <select
-            className="bg-white dark:bg-[#2b3743]   w-60 py-3 shadow-md px-6 rounded-lg"
+            className="bg-white dark:bg-[#2b3743]  w-60 py-3 shadow-md px-6 rounded-lg"
             onChange={handleSelect}
           >
             <option value="">Filter by Region</option>
