@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/shiyammm/Rest-Countries-API/tree/main)
-- Live Site URL: [](https://get-countries-api.netlify.app/)
+- Solution URL: [Rest Countries - Solution](https://github.com/shiyammm/Rest-Countries-API/tree/main)
+- Live Site URL: [Rest Countries - Live](https://get-countries-api.netlify.app/)
 
 ## My process
 
