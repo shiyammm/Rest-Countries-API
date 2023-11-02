@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Rest Countries - Solution](https://github.com/shiyammm/Rest-Countries-API/tree/main)
-- Live Site URL: [Rest Countries - Live](https://get-countries-api.netlify.app/)
+- Live Site URL: [Rest Countries - Live](https://get-countries-api-with-theme-switcher.netlify.app/)
 
 ## My process
 
